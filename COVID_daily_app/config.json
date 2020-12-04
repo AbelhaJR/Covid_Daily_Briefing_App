@@ -1,0 +1,34 @@
+{
+    "api_config": [
+        {
+            "name": "News API", 
+            "base_url": "https://newsapi.org/v2/top-headlines?", 
+            "country": "gb", 
+            "key": "172497f4a9a84797bc29eb41cbfec744"
+            }, 
+        {
+            "name": "OpenWeather", 
+            "base_url": "http://api.openweathermap.org/data/2.5/weather?", 
+            "country": "gb", 
+             
+            "key": "77c3a142360ba0026534d4d92ce0bf92"
+        }
+    ], 
+    "file_path": [
+        {
+            "general_file_path": "api_data/JSON/"
+        }
+    ], 
+    "updates_api": [
+        {
+            "last_update_time": "2020-12-04T06:34"
+        }
+    ],
+    "modules" : [
+        "pyttsx3",
+        "uk_covid_19",
+        "sched",
+        "logging",
+        "random" 
+    ]
+}
