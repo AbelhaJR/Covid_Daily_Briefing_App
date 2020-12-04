@@ -9,7 +9,7 @@ import time,sched,logging,random
 import pyttsx3
 import uk_covid_19
 from helper_functions import *
-import uk_covid_19 weather_update , news_filter
+import uk_covid_19,weather_update , news_filter
 
 
 
